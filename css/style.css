@@ -33,6 +33,7 @@ body {
 .hero-body {
     display: flex;
     flex-basis: 1500px;
+    justify-content: space-between;
 }
 
 .hero-main {
