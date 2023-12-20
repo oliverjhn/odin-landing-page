@@ -126,8 +126,12 @@ body {
     margin-bottom: 50px;
 }
 
-.quote {
+.quote-background {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote-text {
@@ -143,4 +147,19 @@ body {
     align-items: center;
     height: 75px;
     margin-top: auto;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    padding: 200px 100px;
+
+}
+
+.quote-author {
+    margin-top: 30px;
+    font-size: 20px;
+    align-self: flex-end;
+    font-weight: bold;
 }
