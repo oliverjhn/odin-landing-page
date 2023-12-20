@@ -2,16 +2,37 @@
     font-family: Roboto, sans-serif;
 }
 
+
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
 }
 
 .header,
 .hero,
 .footer {
     background-color: #1F2937;
+    padding: var(--padding);
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.hero-body {
+    display: flex;
+    flex-basis: 1500px;
 }
 
 .hero-main {
@@ -24,6 +45,30 @@ body {
 p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 1500px;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .header-logo-text {
