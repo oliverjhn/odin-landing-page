@@ -78,8 +78,14 @@ p {
     font-weight: 600;
 }
 
-button {
+.hero-text button {
     background-color: #3882F6;
+    align-self: flex-start;
+    justify-self: flex-end;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 20px;
+    margin-top: 10px;
 }
 
 .info-big-text {
