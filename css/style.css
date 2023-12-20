@@ -163,3 +163,7 @@ body {
     align-self: flex-end;
     font-weight: bold;
 }
+
+.footer p {
+    color: white;
+}
