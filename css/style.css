@@ -11,6 +11,37 @@ body {
     justify-content: center;
 }
 
+.info-background {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;  */
+    align-items: center;
+    padding-top: 20px;
+}
+
+.info-container {
+    width: 1500px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+}
+
+.info-box p {
+    text-align: center;
+}
+
 .header,
 .hero,
 .footer {
@@ -42,8 +73,7 @@ body {
     color: #F9FAF8;
 }
 
-.hero-secondary,
-p {
+.hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -53,6 +83,7 @@ p {
     justify-content: center;
     align-items: center;
     flex-shrink: 1;
+    padding-top: 20px;
 }
 
 .header-container {
@@ -91,6 +122,8 @@ p {
 .info-big-text {
     font-size: 36px;
     font-weight: 800;
+    align-self: center;
+    margin-bottom: 50px;
 }
 
 .quote {
