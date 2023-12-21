@@ -167,3 +167,29 @@ body {
 .footer p {
     color: white;
 }
+
+.cta-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta-container {
+    display: flex;
+    width: 1000px;
+    background-color: #3B82F6;
+    padding: 50px 100px;
+    margin: 150px 0px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.cta-container button {
+    align-self: center;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-width: 10px;
+    color: white;
+    padding: 10px;
+    border-color: white;
+}
